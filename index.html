@@ -1,1 +1,32 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ants</title>
+    <style>
+        #theCanvas {
+            background-color: blue;
+            left : 500px;
+        }
+    </style>
+<link href="/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="well">
+        <button class="button" id="move">Move</button>
+        <button class="button" id="sleep">Sleep</button> Quantity
+        <input type="number" id="more">Color<input type="color" id="antColor"><button class="button" id="addMore">Add more ants</button>        Quantity
+        <input type="number" id="less"><button id="remove">Remove ants</button>
+    </div>
+    <canvas class="canvas" id="theCanvas" width="300" height="300"></canvas>
+
+    <script src="/jquery.min.js"></script>
+    <script src="ants.js"></script>
+    <script src="/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
